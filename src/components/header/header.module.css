@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    margin: auto;
+    width: 90%;
+}
+
+.container div {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    margin: auto;
+    width: 100%;
+}
+
+.container img {
+    width: 90px;
+    height: auto;
+}
+
+.container nav {
+    display: flex;
+}
+
+.container nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    gap: 10px;
+}
+
+.container li {
+    padding: 1em;
+    border-radius: 8px;
+}
+
+.container li:hover {
+    background-color: bisque;
+}
